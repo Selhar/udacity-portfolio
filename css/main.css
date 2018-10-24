@@ -1,15 +1,50 @@
-body {
+body{
  display: flex;
  flex-direction: column;
  width: calc((100%  /3) * 2);
- margin: 25px auto;
-}
-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+ margin: 2em auto 2em auto;
+ color: #2d3c49;
 }
 
-#title{
-  
+header, #showcase{
+	display: flex;
+	flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+img{
+  max-width: 100%;
+}
+
+
+#title h1{
+  margin-bottom: 10px;
+}
+
+#title div{
+  text-align: right;
+}
+
+#title-line{
+ width: 100%;
+ margin: 2em 0 2em 0;
+ border: 2px #7d97ad solid;
+}
+
+#featured-work{
+  color: #7d97ad;
+}
+
+.project-info{
+  text-align: center;
+}
+
+.project-info h3{
+  margin-bottom: 5px;
+}
+
+a {
+  color: #2d3c49;
+  text-decoration: none;
 }
