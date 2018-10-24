@@ -1,1 +1,15 @@
-/* T0D0 */
+body {
+ display: flex;
+ flex-direction: column;
+ width: calc((100%  /3) * 2);
+ margin: 25px auto;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#title{
+  
+}
